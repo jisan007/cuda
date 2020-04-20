@@ -1,0 +1,301 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #3b3f45;
+}
+
+.header{
+	height: 600px;
+	background-color: #87509C;
+	width: 1440px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.container{
+	width: 1150px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.logo{
+	margin-top: 55px;
+	margin-left: 60px;
+	float: left;
+	overflow: hidden;
+}
+
+.menu{
+	margin-top: 60px;
+	margin-right: 60px;
+	float: right;
+	overflow: hidden;
+}
+
+.menu nav ul{
+	list-style: none;
+}
+
+.menu nav ul li{
+	display: inline-block;
+}
+
+.menu nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 5px 15px;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.menu nav ul li a:hover{
+	background-color: #643a79;
+}
+
+.menu nav ul li a:active{
+	background-color: #643a79;
+}
+
+.container2{
+	width: 1150px;
+	margin: auto;
+	margin-top: 140px;
+	overflow: hidden;
+}
+
+.headercontent{
+	margin: auto;
+	width: 900px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.headercontent span{
+	color: white;
+	font-size: 35px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.container3{
+	width: 1150px;
+	margin: auto;
+	margin-top: 70px;
+}
+
+.button{
+	background-color: #eb7d4b;
+	height: 60px;
+	width: 250px;
+	margin: auto;
+	border-bottom: 3px solid #c86a40;
+}
+.container3 div a{
+	display: block;
+	text-decoration: none;
+	color: white; 
+	text-align: center;
+	padding: 17px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+}
+
+.service{
+	height: 750px;
+	background-color: #17c2a4;
+	width: 1440px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.mhead{
+	width: 1150px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.mheading{
+	margin: auto;
+	margin-top: 100px;
+}
+
+.mhead div h1{
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	font-size: 35px;
+	word-spacing: 5px;
+	position: relative;
+}
+
+.mhead div h1:after{
+	position: absolute;
+	content: '';
+	height: 3px;
+	width: 100px;
+	background-color: #14a58c;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.mcontent{
+	width: 1150px;
+	margin: auto;
+	margin-top: 35px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.mcontent span{
+	
+	color: white;
+}
+
+.services{
+	width: 1150px;
+	margin: auto;
+	margin-top: 80px;
+	overflow: hidden;
+	text-align: center;
+	overflow: hidden;
+}
+
+.singlecontent{
+	width: 25%;
+	float: left;
+}
+
+.singlecontent h3{
+	margin: auto;
+	margin-top: 60px;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+}
+
+.singlecontent p{
+	color: white;
+	margin: auto;
+	margin-top: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	opacity: 0.9
+}
+
+.team{
+	width: 1440px;
+	height: 920px;
+	margin: auto;
+	background-color: #e7f1f8;
+	overflow: hidden;
+	overflow: hidden;
+}
+
+.thead{
+	width: 1150px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.theading{
+	margin: auto;
+	margin-top: 100px;
+}
+
+.thead div h1{
+	color: black;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	font-size: 35px;
+	word-spacing: 5px;
+	position: relative;
+}
+
+.thead div h1:after{
+	position: absolute;
+	content: '';
+	height: 3px;
+	width: 100px;
+	background-color: #c8d9e5;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.tcontent{
+	width: 1150px;
+	margin: auto;
+	margin-top: 35px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.tcontent span{
+	
+	color: black;
+}
+
+.teamlist{
+	width: 1150px;
+	margin: auto;
+	margin-top: 80px;
+	overflow: hidden;
+	text-align: center;
+	overflow: hidden;
+}
+
+.tsinglecontent{
+	width: 25%;
+	float: left;
+}
+
+.tsinglecontent h3{
+	margin: auto;
+	margin-top: 40px;
+	color: black;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+}
+
+.tsinglecontent p{
+	color: black;
+	margin: auto;
+	margin-top: 30px;
+	width: 200px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	opacity: 0.9
+}
+
+.timg{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+.tsinglecontent h4{
+	margin: auto;
+	margin-top: 10px;
+	color: #30bae7;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 13px;
+}
+
+.teamsocial{
+	width: 200px;
+	margin-top: 35px;
+	margin-left: 55px;
+}
+.tsocial{
+	float: left;
+	height: 35px;
+	margin: 0px 5px;
+
+}
